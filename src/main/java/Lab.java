@@ -26,7 +26,7 @@ public class Lab {
      *      for part 1, write
      *          int i = start;
      *      for part 2, write
-     *          i < end;
+     *         i < end;
      *      for part 3, write
      *          i++
      *      within the for loop block, let's have the following code:
@@ -43,7 +43,9 @@ public class Lab {
         String buildingString = "";
 
 //        code here
-
+            for(int i = start; i < end; i++){
+                buildingString = buildingString + i + " ";
+            }
         return buildingString;
     }
 }
